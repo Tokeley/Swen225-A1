@@ -1,0 +1,14 @@
+For character:
+ - general movement DONE
+ - edge case movement, ie does not move and moves doesn't decrease DONE
+ - moveCharacterIntoEstate test DONE
+ - step test DONE
+
+ For player:
+ - moveOutOfEstate test correct
+ - moveOutOfEstate blocked door senario
+ - doGuess: automatically give inputs to create a card and manually create the expected card and see if they match
+ 
+ For estate:
+ - addDoor test: add a door and make sure it is there
+ - squarePartOfEstate test: create game and make sure squares in estate return true and squares out of estate return false
